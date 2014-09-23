@@ -10,7 +10,7 @@ $('#lightGroupName').text(context.lightGroupName);
 $('#userId').text(context.userId);
 
 BL.addTemplateResetFunction(function() {
-  alert(0);
+  $('p').css('color', 'blue')
 })
 
 // Register a click handler on the entire preview
