@@ -16,5 +16,5 @@ BL.addTemplateResetFunction(function() {
 // Register a click handler on the entire preview
 $('#container').on('click', function() {
   // Open the show page by calling BL.displayApp(APP.appId).
-  BL.displayApp(APP.appId);
+  //BL.displayApp(APP.appId);
 });
