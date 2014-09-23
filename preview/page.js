@@ -9,6 +9,10 @@ $('#lightGroupId').text(context.lightGroupId);
 $('#lightGroupName').text(context.lightGroupName);
 $('#userId').text(context.userId);
 
+BL.addTemplateResetFunction(function() {
+  alert(0);
+})
+
 // Register a click handler on the entire preview
 $('#container').on('click', function() {
   // Open the show page by calling BL.displayApp(APP.appId).

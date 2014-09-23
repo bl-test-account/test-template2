@@ -1,5 +1,5 @@
 html {
-  background-color: #fdfdfd;
+  background-color: black;
 }
 
 .default-app {
@@ -10,7 +10,7 @@ html {
 }
 
 p {
-  color: #313131;
+  color: red;
 }
 
 .container {
@@ -21,7 +21,7 @@ p {
 .container h1 {
   font-size: 22px;
   padding-bottom: 5px;
-  color: #313131;
+  color: red;
 }
 
 #lightGroupName {
